@@ -2,11 +2,11 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/15
+GET http://localhost:3000/subscribers/605a58de25604f46b4f849f5
 
 ###
 
-POST http://localhost:3000/subscribers/66
+POST http://localhost:3000/subscribers/
 Content-Type: application/json
 
 
@@ -14,3 +14,14 @@ Content-Type: application/json
     "subscribedToChannel":"sahin"
  }
  
+###
+PATCH http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{   "name":"",
+    "subscribedToChannel":""
+ }
+
+###
+
+DELETE http://localhost:3000/subscribers/
