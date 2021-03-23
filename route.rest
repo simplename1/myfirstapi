@@ -10,7 +10,7 @@ POST http://localhost:3000/subscribers/66
 Content-Type: application/json
 
 
- {   "name":"sdfsfe",
-    "subscribedToChannel":"wefawef"
+ {   "name":"deniz",
+    "subscribedToChannel":"sahin"
  }
  
